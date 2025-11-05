@@ -1,19 +1,12 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M9.06145 23.1079C5.26816 22.3769 -3.39077 20.6274 1.4173 5.06384C9.6344 6.09939 16.9728 14.0644 9.06145 23.1079Z" fill="url(#paint0_linear_17557_2021)"/>
-<path d="M8.91928 23.0939C5.27642 21.2223 0.78371 4.20891 17.0071 0C20.7569 7.19341 19.6212 16.5452 8.91928 23.0939Z" fill="url(#paint1_linear_17557_2021)"/>
-<path d="M8.91388 23.0788C8.73534 19.8817 10.1585 9.08525 23.5699 13.1107C23.1812 20.1229 18.984 26.4182 8.91388 23.0788Z" fill="url(#paint2_linear_17557_2021)"/>
-<defs>
-<linearGradient id="paint0_linear_17557_2021" x1="3.77557" y1="5.91571" x2="5.23185" y2="21.5589" gradientUnits="userSpaceOnUse">
-<stop stop-color="#18E299"/>
-<stop offset="1" stop-color="#15803D"/>
-</linearGradient>
-<linearGradient id="paint1_linear_17557_2021" x1="12.1711" y1="-0.718425" x2="10.1897" y2="22.9832" gradientUnits="userSpaceOnUse">
-<stop stop-color="#16A34A"/>
-<stop offset="1" stop-color="#4ADE80"/>
-</linearGradient>
-<linearGradient id="paint2_linear_17557_2021" x1="23.1327" y1="15.353" x2="9.33841" y2="18.5196" gradientUnits="userSpaceOnUse">
-<stop stop-color="#4ADE80"/>
-<stop offset="1" stop-color="#0D9373"/>
-</linearGradient>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.51 69">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #010101;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M106.51,4.2c-6.05,14.61-11.65,29.53-18.81,43.65-3.22,6.35-9.91,19.81-17.55,21.02-10.38,1.64-12.92-12.57-14.19-19.97-1.96-11.43-2.12-23.27-5.37-34.44-5.36,5.08-9.39,11.78-13.24,18.08-7.06,11.56-13.04,23.75-19.67,35.56-.51.33-1.65-.49-2.14-.73-2.99-1.49-5.88-3.34-8.8-4.95,5.7-10.65,11.13-21.5,17.24-31.92C28.59,22.64,40.27,2.2,49.74,1.05c11.17-1.35,13.38,10.63,14.89,19,2.01,11.17,2.12,22.76,5.24,33.68,9.92-15.39,16.04-32.84,23.36-49.54h13.27Z"/>
+  <polygon class="cls-1" points="0 55.13 32.03 .3 32.35 0 35.73 1.9 4.03 56.92 3.7 57.26 0 55.13"/>
 </svg>
