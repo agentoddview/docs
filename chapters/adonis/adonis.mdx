@@ -68,4 +68,10 @@ Placing `-` before any selector or player name will _invert_ the selection and s
 :explode -radius-10
 ```
 
+### Batch Commands
+
 Multiple commands can be ran sequentially at a time by separating them using the batch key, which defaults to `|` (vertical pipe).
+
+Additionally, you can insert timed delays using `!wait <duration in seconds>`.
+
+**Example:** `:ff me | :m Exploding everyone in 10 seconds! | !wait 10 | :explode all` - gives you a forcefield and makes a message announcement, waits 10 seconds, then explodes everyone.
