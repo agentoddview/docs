@@ -13,9 +13,16 @@ Adonis Admin is a popular admin system inside Roblox. It uses the colon (:) to r
 
 **Not all commands follow this format.** Make sure you double check by using `:cmds`or run the custom Adonis menu. (More on that later.)
 
-You can also shorten usernames. Please shorten it to the minimum of 4 letters. For example
+You can also shorten usernames. Please shorten it to the minimum of 4 letters. The reason why is when using 3, people can trick you into using strong commands such as all. An example would be:
 
 ```
+:track agen true
+```
+
+Another trick you can use when doing mutliple specific players, is by using commas to seperate names in a single command. An example would be:
+
+```
+:kill noob1,noob2
 ```
 
 Multiple variables for the player section can exist. The following includes:
@@ -34,3 +41,9 @@ Multiple variables for the player section can exist. The following includes:
 | `%team`        | `:fly %operators`   | Effects member of a team                |
 | `$groupid`     | `:fly $13039250`    | Effects members of a group              |
 | `radius-num`   | `:fly radius-5`     | Effects anyone in a raduis -stud of you |
+
+Placing `-` before any selector or player name will _invert_ the selection and select everyone except those within the selection defined after `-`. To illustrate, using the `others` selector is essentially the same as doing `all,-me`. An example would be: (explodes all players further than 10 studs from yoU.)
+
+```
+:explode -radius-10
+```
