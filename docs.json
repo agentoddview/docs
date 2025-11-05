@@ -71,13 +71,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Website",
+          "href": "https://www.netransit.net",
           "icon": "book-open-cover"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "Trident",
+          "href": "https://trident.bot/dashboard/882441222487162912/panel",
           "icon": "newspaper"
         }
       ]
@@ -114,9 +114,9 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/NETransit_RBLX",
+      "discord": "https://www.discord.gg/netransit",
+      "instagram": "https://www.instagram.com/netransit_rblx/"
     }
   }
 }
