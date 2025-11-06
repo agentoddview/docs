@@ -1,0 +1,32 @@
+---
+title: "Supervisor Shift Commands"
+description: "Discord commands with the New England Transit bot to operate shift announcements."
+---
+
+It is fine to use these commands in any channel as they are only visible to you. (The announcement which will stay consistent in the shifts channel would be visible to everyone.)
+
+### Announcing a shift
+
+```
+/shift game: time_str: routes: buses_on_duty:
+```
+
+<Tip>
+  Make sure time is in Eastern Standard Time! You can also use the optional notes addon to add any info to your shift announcement.
+</Tip>
+
+### Canceling a shift
+
+```
+/cancelshift message_id_or_link:
+```
+
+<Tip>
+  You can get the message ID by enabling developer mode, and then right clicking copy message ID on said original shift announcement.
+</Tip>
+
+### Stopping a shift
+
+```
+/shiftstop message_id_or_link:
+```
