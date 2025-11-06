@@ -24,8 +24,7 @@
           {
             "group": "Adonis admin",
             "pages": [
-              "chapters/adonis/adonis",
-              "chapters/adonis/adonis-inserts"
+              "chapters/adonis/adonis"
             ]
           },
           {
