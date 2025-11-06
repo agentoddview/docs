@@ -59,7 +59,8 @@
           {
             "group": "Quick documentation",
             "pages": [
-              "chapters/adonis/adonis-inserts"
+              "chapters/adonis/adonis-inserts",
+              "misc/FPIUControls"
             ]
           },
           {
