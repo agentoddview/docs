@@ -60,7 +60,8 @@
             "group": "Quick documentation",
             "pages": [
               "chapters/adonis/adonis-inserts",
-              "misc/FPIUControls"
+              "misc/FPIUControls",
+              "misc/chainofcommand"
             ]
           },
           {
