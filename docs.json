@@ -62,7 +62,9 @@
               "chapters/adonis/adonis-inserts",
               "misc/FPIUControls",
               "misc/chainofcommand",
-              "misc/punishments"
+              "misc/punishments",
+              "misc/shiftcmds",
+              "misc/overhead"
             ]
           },
           {
