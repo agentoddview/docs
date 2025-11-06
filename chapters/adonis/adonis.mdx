@@ -78,15 +78,11 @@ Additionally, you can insert timed delays using `!wait <duration in seconds>`.
 
 ### General Commands
 
-### `:kick <player> <reason>`
-
-### `:bring <player>`
-
-### `:track <player> <update?>`
-
-### `:fly <player>`
-
-### `:inslist`
+- `:kick <player> <reason>`
+- `:bring <player>`
+- `:track <player> <update?>`
+- `:fly <player>`
+- `:inslist`
 
 Disconnects the specified player from the server. If specified, the reason is shown to the player.
 
@@ -96,25 +92,21 @@ Disconnects the specified player from the server. If specified, the reason is sh
   Make sure to always follow the **warn 2-3 times, kick, then ban.**
 </Tip>
 
-### `:banlist`
+- `:banlist`
 
-Displays a list of normal bans.
+  Displays a list of normal bans.
+- `:timebanlist`
 
-### `:timebanlist`
+  Displays a list of time-banned users.
+- `:ban/:serverban <player> <reason>`
 
-Displays a list of time-banned users.
+  Bans the specified player from the current server. Note that they may still be able to join other servers.
+- `:permban/:gameban <player> <reason>`
 
-### `:ban/:serverban <player> <reason>`
+  Bans the specified player from _all_ game servers, for an indefinite amount of time. Enforced immediately, so if the user is in a server other than where the command is run, they will be kicked by the system.
+- `:tempban/:timeban <player> <duration (s/m/h/d)> <reason>`
 
-Bans the specified player from the current server. Note that they may still be able to join other servers.
-
-### `:permban/:gameban <player> <reason>`
-
-Bans the specified player from _all_ game servers, for an indefinite amount of time. Enforced immediately, so if the user is in a server other than where the command is run, they will be kicked by the system.
-
-### `:tempban/:timeban <player> <duration (s/m/h/d)> <reason>`
-
-Bans the specified player from _all_ game servers, for a specific amount of time. Enforced immediately.
+  Bans the specified player from _all_ game servers, for a specific amount of time. Enforced immediately.
 
 **Example:** `:tempban Player1 3d` -- globally-bans Player1 for 3 days.
 
@@ -122,26 +114,25 @@ Bans the specified player from _all_ game servers, for a specific amount of time
 
 Announcement commands are command which are sent through the server to all the players. Its important to use case for these.
 
-### `:n <message>`
+- `:n <message>`
 
-Displays a normal sized announcement.
+  Displays a normal sized announcement.
 
 <Note>
   Don't use n for **unnessesary commands **that don't need to be used. Examples can include ":n Hello everyone! Your favorite supervisor is here!". Please dont. Keep it to a minimum, and always use it when needed.
 </Note>
 
-### `:m <message>`
+- `:m <message>`
 
-Displays a large sized announcement
+  Displays a large sized announcement
 
 <Danger>
   Make sure to **never **use the M command. It covers the entire screen,
 </Danger>
 
-### `:h <message>`
+- `:h <message>`
 
-Displays a screen sized banner for 5 seconds.
+  Displays a screen sized banner for 5 seconds.
+- `:setmessage <message>`
 
-### `:setmessage <message>`
-
-Displays a screen sized banner until doing `:setmessage off`
+  Displays a screen sized banner until doing `:setmessage off`
