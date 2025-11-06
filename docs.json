@@ -53,7 +53,7 @@
           {
             "group": "Quick documentation",
             "pages": [
-              "api-reference/introduction"
+              "chapters/adonis/adonis-inserts"
             ]
           },
           {
