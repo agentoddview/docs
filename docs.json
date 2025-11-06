@@ -64,7 +64,8 @@
               "misc/chainofcommand",
               "misc/punishments",
               "misc/shiftcmds",
-              "misc/overhead"
+              "misc/overhead",
+              "misc/joinshift"
             ]
           },
           {
