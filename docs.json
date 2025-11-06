@@ -48,10 +48,10 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Quick reference",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Quick documentation",
             "pages": [
               "api-reference/introduction"
             ]
