@@ -104,10 +104,6 @@ Displays a list of normal bans.
 
 Displays a list of time-banned users.
 
-### `:trellobanlist/:sbl`
-
-Displays a list of users banned via Trello; only applicable if Trello integration is configured.
-
 ### `:ban/:serverban <player> <reason>`
 
 Bans the specified player from the current server. Note that they may still be able to join other servers.
@@ -123,3 +119,23 @@ Bans the specified player from _all_ game servers, for a specific amount of time
 **Example:** `:tempban Player1 3d` -- globally-bans Player1 for 3 days.
 
 ### Announcement Commands
+
+Announcement commands are command which are sent through the server to all the players. Its important to use case for these.
+
+### `:n <message>`
+
+Displays a normal sized announcement.
+
+<Note>
+  Don't use n for unnessesary commands that don't need to be used. Examples can include ":n Hello everyone! Your favorite supervisor is here!". Please dont. Keep it to a minimum, and always use it when needed.
+</Note>
+
+### `:m <message>`
+
+Displays a large sized announcement
+
+<Danger>
+  Make sure to **never **use the M command. It covers the entire screen,
+</Danger>
+
+### 
