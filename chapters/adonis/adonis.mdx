@@ -75,3 +75,51 @@ Multiple commands can be ran sequentially at a time by separating them using the
 Additionally, you can insert timed delays using `!wait <duration in seconds>`.
 
 **Example:** `:ff me | :m Exploding everyone in 10 seconds! | !wait 10 | :explode all` - gives you a forcefield and makes a message announcement, waits 10 seconds, then explodes everyone.
+
+### General Commands
+
+### `:kick <player> <reason>`
+
+### `:bring <player>`
+
+### `:track <player> <update?>`
+
+### `:fly <player>`
+
+### `:inslist`
+
+Disconnects the specified player from the server. If specified, the reason is shown to the player.
+
+### Banning Players
+
+<Tip>
+  Make sure to always follow the warn 2-3 times, kick, then ban.
+</Tip>
+
+### `:banlist`
+
+Displays a list of normal bans.
+
+### `:timebanlist`
+
+Displays a list of time-banned users.
+
+### `:trellobanlist/:sbl`
+
+Displays a list of users banned via Trello; only applicable if Trello integration is configured.
+
+### `:ban/:serverban <player> <reason>`
+
+Bans the specified player from the current server. Note that they may still be able to join other servers.
+
+### `:permban/:gameban <player> <reason>`
+
+Bans the specified player from _all_ game servers, for an indefinite amount of time. Enforced immediately, so if the user is in a server other than where the command is run, they will be kicked by the system.
+
+### `:tempban/:timeban <player> <duration (s/m/h/d)> <reason>`
+
+Bans the specified player from _all_ game servers, for a specific amount of time. Enforced immediately.
+
+**Example:** `:tempban Player1 3d` -- globally-bans Player1 for 3 days.
+
+### Announcement Commands
