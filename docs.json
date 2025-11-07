@@ -21,9 +21,15 @@
             ]
           },
           {
-            "group": "Adonis admin",
+            "group": "Adonis Admin",
             "pages": [
               "chapters/adonis/adonis"
+            ]
+          },
+           {
+            "group": "Shift Operations",
+            "pages": [
+              "chapters/shiftops/shift-guidelines-and-policies"
             ]
           },
           {
