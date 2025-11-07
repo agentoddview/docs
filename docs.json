@@ -38,6 +38,12 @@
               "chapters/in-game-mod/punishments"
             ]
           },
+           {
+            "group": "Discord Moderation",
+            "pages": [
+              "chapters/discord-mod/discord-policy"
+            ]
+          },
           {
             "group": "Customization",
             "pages": [
