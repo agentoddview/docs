@@ -32,6 +32,12 @@
               "chapters/shiftops/shift-guidelines-and-policies"
             ]
           },
+           {
+            "group": "In-Game Moderation",
+            "pages": [
+              "chapters/in-game-mod/punishments"
+            ]
+          },
           {
             "group": "Customization",
             "pages": [
