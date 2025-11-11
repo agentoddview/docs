@@ -44,6 +44,18 @@
               "chapters/discord-mod/discord-policy"
             ]
           },
+                     {
+            "group": "Ticket Guidelines",
+            "pages": [
+              "chapters/tickets/ticket-handling"
+            ]
+                       },
+                     {
+            "group": "Suggestion Guidelines",
+            "pages": [
+              "chapters/suggestion-guidelines/suggestion"
+            ]
+          },
           {
             "group": "Customization",
             "pages": [
