@@ -157,7 +157,11 @@
     "socials": {
       "x": "https://x.com/NETransit_RBLX",
       "discord": "https://www.discord.gg/netransit",
-      "instagram": "https://www.instagram.com/netransit_rblx/"
+      "instagram": "https://www.instagram.com/netransit_rblx/",
+      "website": "https://netransit.net",
+      "bluesky": "https://bsky.app/profile/netransitrblx.bsky.social",
+      "linkedin": "https://www.linkedin.com/company/new-england-transit/",
+      "youtube": "https://www.youtube.com/@netransit"
     }
   }
 }
