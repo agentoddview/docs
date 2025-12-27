@@ -9,6 +9,20 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Website",
+          "icon": "book-open-cover",
+          "href": "https://www.netransit.net"
+        },
+        {
+          "anchor": "Trident",
+          "icon": "newspaper",
+          "href": "https://trident.bot/dashboard/882441222487162912/panel"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -26,31 +40,31 @@
               "chapters/adonis/adonis"
             ]
           },
-           {
+          {
             "group": "Shift Operations",
             "pages": [
               "chapters/shiftops/shift-guidelines-and-policies"
             ]
           },
-           {
+          {
             "group": "In-Game Moderation",
             "pages": [
               "chapters/in-game-mod/punishments"
             ]
           },
-           {
+          {
             "group": "Discord Moderation",
             "pages": [
               "chapters/discord-mod/discord-policy"
             ]
           },
-                     {
+          {
             "group": "Ticket Guidelines",
             "pages": [
               "chapters/tickets/ticket-handling"
             ]
-                       },
-                     {
+          },
+          {
             "group": "Suggestion Guidelines",
             "pages": [
               "chapters/suggestion-guidelines/suggestion"
@@ -108,21 +122,7 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Website",
-          "href": "https://www.netransit.net",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Trident",
-          "href": "https://trident.bot/dashboard/882441222487162912/panel",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logos/light.svg",
